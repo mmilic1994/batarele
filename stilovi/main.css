@@ -1,0 +1,186 @@
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+header {
+  z-index: 10;
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+ 
+}
+
+div.gallery {
+    margin: 0.8rem;
+    width: auto;
+    display: inline;
+    
+    
+}
+
+div.gallery img {
+    width: 45%;
+    height: auto;
+    
+}
+ 
+div.gallery img:hover{
+    position: relative;
+    top:0.3rem;
+    right:0.3rem;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 30px;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  word-spacing: 2.5rem;
+  font-size: 3rem;
+  color: #FFF;
+}
+
+ul a:hover {
+     color: #DBE9EE;
+}
+
+li {  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;
+}
+
+ul a {color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;}
+
+li:hover {
+  color: #DBE9EE;
+}
+
+h1 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+p, figcaption {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  word-spacing: 0.4rem;
+  letter-spacing: 0.1rem;
+}
+
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+}
+
+.welcome {
+  position: relative;
+  top: 50px;
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+}
+    
+
+.content
+{
+  position: relative;
+  top: 50px;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%; 
+}
+
+img {
+    border-radius: 2rem;
+    
+} 
+
+figure {
+    display: inline-block;
+   
+    
+}
+
+#facebook {
+    height: 8%;
+    width: 8%;
+}
+
+#facebook:hover {
+ position: relative;
+ top:0.3rem;
+ right:0.3rem;
+}
+
+@media only screen and (max-width: 460px) {
+    ul, h1, h2, h3, p, a, figure figcaption {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+   img, figure  {
+    width: 100%;
+    align-content: center;
+    height: 100%;
+    
+       
+}    
+    
+    #facebook {
+        height: 20%;
+        width: 20%;
+    }
+  header {
+  position:relative;
+  
+ 
+}
+    .gallery img {
+    display: inline-block;
+    width: 100%;  
+    height: 80%;
+    align-items: center;
+    }
+    
+}
+
+

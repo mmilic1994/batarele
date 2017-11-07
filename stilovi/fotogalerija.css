@@ -1,0 +1,61 @@
+html{
+  background-image: linear-gradient(to right, #00cc99, #00664d);
+  
+}
+
+body, pre {
+    color:beige;
+    font-size: 1em;
+    text-align: center;
+    font-family: "Trebuchet MS"; 
+    line-height: 2em;
+    width: auto;
+    background-image: url()
+}
+.navigacija {
+    background-color: #00004d;
+    width: 18%;
+    height: 80%;
+    position: fixed;
+    border-radius: 2em;
+    padding: 5px 15px;
+    margin: 10px 10px;
+    text-align: justify;
+    letter-spacing: 0.3em;
+    font-size: 1.2em;
+    font-family: "Trebuchet MS"; 
+    text-transform: uppercase;
+    z-index: 10;
+    display: block;
+}
+
+a {
+    color:beige;
+}
+
+
+a:hover
+{
+    color:darkgoldenrod;
+}
+
+img {
+    display: inline;
+    border-radius: 20px;
+    box-shadow: 10px -10px 10px black;
+    width: 38em;
+    
+}
+
+
+#logotip {
+    border-radius: 20px;
+    width: 13em;
+    box-shadow: none;
+    padding-top: 1em;
+}
+
+#vrh {
+    font-size: 4em;
+    text-shadow: 5px 5px 5px #000000;
+}
