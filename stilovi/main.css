@@ -180,7 +180,10 @@ figure {
     height: 80%;
     align-items: center;
     }
-    
+     ul li {
+        display:block;
+        padding-left: 3rem;
+    }
 }
 
 
