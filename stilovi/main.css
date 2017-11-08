@@ -54,7 +54,7 @@ li {  color: #FFF;
   text-transform: uppercase;
   display: inline-block;
   width: 80px;
-  text-decoration: none;
+  
 }
 
 ul a {color: #FFF;
@@ -64,6 +64,7 @@ ul a {color: #FFF;
   text-transform: uppercase;
   display: inline-block;
   width: 80px;}
+  text-decoration: none;
 
 li:hover {
   color: #DBE9EE;
