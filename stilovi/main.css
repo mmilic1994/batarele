@@ -181,6 +181,8 @@ figure {
     }
   header {
   position:relative;
+  text-align: center;
+  margin: auto;
   
  
 }
